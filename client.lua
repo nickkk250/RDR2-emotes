@@ -3,7 +3,7 @@ local SharedEmoteRequest
 
 RegisterNetEvent("emotes:requestSharedEmote")
 RegisterNetEvent("emotes:rejectSharedEmote")
-RegisterNetEvent("emotes:acceptSharedEmote")
+-- RegisterNetEvent("emotes:acceptSharedEmote")
 RegisterNetEvent("emotes:stopSharedEmote")
 
 function GetCompatibleAnim(ped, anim)
