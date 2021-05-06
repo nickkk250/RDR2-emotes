@@ -1,5 +1,5 @@
 Config = {}
-
+-- Config = {}
 Config.SharedEmoteRange = 3.0
 Config.SharedEmoteTimeout = 5000
 
@@ -26,6 +26,14 @@ Config.Emotes = {
 			flag = 1
 		}
 	},
+	["dance1"] = {
+		type = "solo",
+		name = "Dance: Lead",
+		animation = {
+			dict = "cnv_camp@rchso@cnv@ccdtc33@player_karen",
+			name = "arthur_dance_loop",
+			flag = 1
+		}
 
 	-- Shared emotes
 	["dance"] = {
